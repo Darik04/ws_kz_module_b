@@ -1,0 +1,91 @@
+@media only screen and (max-width: 990px) {
+    .about-container{
+        display: block;
+    }
+    .about-container img{
+        width: 80%;
+
+    }
+
+    .product-container{
+        display: block;
+    }
+    .product-image-wrapper{
+        margin: 15px 0 0;
+    }
+    .product-container img{
+        width: 80%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main-container{
+        display: block;
+    }
+    .main-container img{
+        max-width: 500px;
+        width: 80%;
+        margin: 15px auto 0;
+    }
+    .m-products-content{
+        display: block;
+    }
+    .m-product-card{
+        width: 80%;
+        margin: 0 auto 10px;
+    }
+    .h-container{
+        display: block;
+    }
+    .header{
+        height: auto;
+        padding: 12px 0;
+    }
+    .nav{
+        padding-top: 20px;
+
+    }
+
+    .product-container{
+        padding: 0 25px;
+    }
+
+    .team-card{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .team-card-2 img{
+        display: none;
+    }
+    .team-card-2 h5, .team-card-2 h3{
+        text-align: center;
+    }
+    .team-card-content{
+        width: 100%;
+    }
+    .team-card img{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .main-container{
+        display: block;
+    }
+    .main-container img{
+        width: 90%;
+    }
+    .m-product-card{
+        width: 90%;
+    }
+    .footer-content{
+        display: block;
+    }
+    .footer-content .p{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    
+}

@@ -1,0 +1,31 @@
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.product-container img{
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.product-content h2{
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+
+.product-image-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 40px;
+}
+.product-image-wrapper img{
+    max-width: 490px;
+    margin: 0;
+}
+
+.product-section-black h2, .product-section-black p, .product-section-black li{
+    color: #fff !important;
+}

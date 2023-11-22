@@ -1,0 +1,53 @@
+.team-section h2{
+    margin-bottom: 70px;
+}
+.team-card{
+    background-color: #6C63FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.team-card-2{
+    background-color: #2F2E43;
+}
+.team-card-2 h3, .team-card-2 h5{
+    text-align: end;
+}
+.team-card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 30px;
+}
+.team-card-2 img{
+    margin-left: 30px;
+    margin-right: 0;
+}
+.team-card-content{
+    width: calc(100% - 230px);
+}
+.team-section h2{
+    text-align: center;
+}
+.team-card h5{
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+.team-p-wrapper{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+.team-card p{
+    text-align: center;
+}
+.m-products-content{
+    justify-content: center;
+}
+.m-product-card{
+    margin: 0 20px;
+}
