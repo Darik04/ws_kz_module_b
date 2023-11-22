@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    height: 75px;
+    background-color: #333;
+}
+.h-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.h-logo{
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    text-decoration: none;
+}
+.logout-a{
+    color: #CACACA;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.m-card{
+    max-width: 400px;
+    margin: 20px 10px 0;
+    text-decoration: none;
+}
+
+.h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.h3{
+    font-size: 22px;
+
+}
+.center{
+    text-align: center;
+}
+.w-container, .b-container{
+    max-width: 850px;
+}
+.b-container .form-select{
+    max-width: 130px;
+}
+.b-container td:first-child{
+    width: 50%;
+}

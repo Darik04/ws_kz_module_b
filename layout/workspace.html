@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container h-container">
+            <h1 class="h-logo">WS Kazakhstan</h1>
+            <a href="/">Logout</a>
+        </div>
+    </header>
+    <div class="container w-container">
+        <h2 class="h2 my-4">Workspace 1</h2>
+        <h3 class="h3 center my-4">Workspace Tokens</h3>
+        <table class="table border shadow-sm">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Token</th>
+                <th>Deactivated at</th>
+                <th>Created at</th>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Token</td>
+                <td>Deactivated at</td>
+                <td>Created at</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Token</td>
+                <td><div class="btn btn-danger">Deactivate</div></td>
+                <td>Created at</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Token</td>
+                <td>Deactivated at</td>
+                <td>Created at</td>
+            </tr>
+        </table>
+        <div class="card shadow-sm p-4 mt-4">
+            <h3 class="h3 mb-3">Creating new token:</h3>
+            <form action="/">
+                <div class="form-floating">
+                    <input id="tokenId" type="text" name="name" class="form-control">
+                    <label for="tokenId">Token name</label>
+                </div>
+                <button class="btn btn-primary mt-3">Create</button>
+            </form>
+        </div>
+        <div class="card shadow-sm p-4 mt-4">
+            <h3 class="h3 mb-3">Your billing quota is: 5$</h3>
+            <div class="d-flex">
+                <button class="btn btn-success">Delete quota</button>
+            </div>
+        </div>
+        <h3 class="h3 center my-4">Bills</h3>
+        <a href="bills.html" class="btn btn-primary">Show bills details</a>
+        <div class="py-4"></div>
+    </div>
+</body>
+</html>
